@@ -667,13 +667,19 @@ label {
   width: 11px;
   height: 8px;
   position: absolute;
-  left: 55px;
+  left: 49px;
   top: 459px;
   z-index: 999;
 }
 .statute {
   font-size: 14px;
   padding: 10px 0 20px 0;
+}
+.statute input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
 }
 .marker {
   position: absolute;
@@ -685,4 +691,25 @@ label {
   border-radius: 2px;
   background-color: var(--white);
   border: var(--notblack) 2px solid;
+}
+.statute input:checked ~ .marker {
+  background-color: var(--blue);
+  border: none;
+}
+.marker:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.statute input:checked ~ .marker:after {
+  display: block;
+}
+.statuate-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0;
 }
