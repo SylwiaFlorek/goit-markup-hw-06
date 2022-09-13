@@ -481,6 +481,68 @@
 <div class="backdrop is-hidden" data-modal>
 <div class="modal">
   <button type="button" class="close-btn" data-modal-close>X</button>
+
+  <form class="form-header">
+  <h6 class="top-modal">Zostaw swoje dane w formularzu poniżej</h6>
+
+  <label for="fullname">
+   Imie
+   <svg class="form-icons icon-position1">
+    <use
+      xlink:href="./images/icons.svg#person-logo"
+      width="12"
+      height="12"
+    ></use></svg
+  >
+    <input type="text" id="fullname"class="form-input" name="username" placeholder="         Jacob Kowalski"/>
+  </label>
+
+  <label for="phone-number">Telefon
+    <svg class="form-icons icon-position2">
+    <use
+    xlink:href="./images/icons.svg#phone-logo"
+              width="13"
+              height="13"
+            ></use>
+          </svg>
+    <input type="tel" id="phone-number" class="form-input" name="phone_number" />
+  </label>
+
+  <label for="user_email">Email
+    <svg class="form-icons icon-position3">
+      <use
+        xlink:href="./images/icons.svg#email2-logo"
+        width="15"
+        height="12"
+      ></use></svg
+    >
+
+  <input type="email" id="user_email" class="form-input" name="email" id="user_email" />
+  </label>
+
+  <label>
+    Komentarz
+    <textarea name="feedback" rows="5" placeholder="Wprowadź tekst" class="textarea form-input"></textarea>
+    
+  </label>
+
+  <label>
+    <input type="checkbox" name="tick" value="statement" checked />
+    <svg class="tick">
+      <use
+        xlink:href="./images/icons.svg#tick"
+        width="11"
+        height="8"
+      ></use>
+    </svg>
+    <span class="marker"></span>
+    Oświadczam iż akceptuję <a href="#" class="blue-text">Regulamin</a> i <a href="#" class="blue-text">Politykę Prywatności.</a>
+  </label>
+
+  <button type="submit" class="form-button">Wyślij</button>
+
+</form>
+
 </div>
 </div>
 <script src="./js/modal.js"></script>
