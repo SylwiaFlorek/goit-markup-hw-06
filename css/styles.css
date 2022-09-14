@@ -158,6 +158,9 @@ body {
   box-shadow: 0px 1px 3px rgb(197 197 197/ 12%), 0px 1px 1px rgb(197 197 197),
     0px 2px 1px rgb(197 197 197/ 20%);
 }
+.button:active {
+  box-shadow: inset 1px 1px 1px 1px hsla(0, 0%, 0%, 0.3);
+}
 /*Lorem list*/
 .container-list {
   display: flex;
@@ -601,6 +604,7 @@ label {
   margin-top: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding-left: 42px;
 }
 
 .textarea {
