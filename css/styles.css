@@ -81,11 +81,14 @@ body {
   bottom: 0;
   left: 0;
   background-color: var(--blue);
+  color: var(--blue);
   transform: translateY(29px);
   border-radius: 2px;
   position: absolute;
 }
-
+.touch-link {
+  color: var(--blue);
+}
 .nav-link {
   height: 16px;
   font-weight: 500;
@@ -484,10 +487,9 @@ img {
 }
 .box-anim {
   position: absolute;
-
   overflow: hidden;
   width: 370px;
-  height: 294px;
+  height: 295px;
 }
 .box-anim:hover .project-anim {
   transform: translatex(0);
@@ -660,11 +662,11 @@ label {
   left: 55px;
 }
 .icon-position2 {
-  top: 190px;
+  top: 191px;
   left: 52px;
 }
 .icon-position3 {
-  top: 258px;
+  top: 260px;
   left: 52px;
 }
 .form-button {
@@ -684,13 +686,15 @@ label {
   width: 11px;
   height: 8px;
   position: absolute;
-  left: 49px;
+  left: 47px;
   top: 459px;
   z-index: 999;
 }
+
 .statute {
   font-size: 14px;
   padding: 10px 0 20px 0;
+  cursor: pointer;
 }
 .statute input {
   position: absolute;
