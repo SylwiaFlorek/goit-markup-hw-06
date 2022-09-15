@@ -512,23 +512,22 @@ img {
 }
 .project-item > li {
   border: var(--productborder) solid 1px;
+  flex-basis: calc((100% - 90px) / 3);
   height: 404px;
-  flex-basis: calc((100% -90px) / 4);
   margin: 0;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
 }
 .project-list-item > h4 {
   color: var(--darkgrey);
   font-size: 18px;
   font-weight: 700;
+  letter-spacing: 0.06em;
   line-height: 2;
+  padding: 20px 0 4px 24px;
 }
 .project-list-text > p {
   line-height: 1.88;
   font-size: 16px;
+  padding: 0 0 0 24px;
 }
 .style-line {
   border-bottom: var(--notwhite) solid 1px;
