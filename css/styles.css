@@ -42,8 +42,6 @@ body {
   margin: 0 auto;
 }
 .header {
-  width: 1600px;
-  justify-content: center;
   align-items: center;
   gap: 93px;
   flex-direction: row;
@@ -99,9 +97,12 @@ body {
 
 /*contakty boczne*/
 .contact-style {
+  display:flex
+  align-items:center;
+  justify-content: center;
   gap: 50px;
-  padding: 0 0 0 371px;
-  margin: 0;
+  margin-left: auto;
+  padding-left: 0;
 }
 .contact-link-style {
   color: var(--gray);
